@@ -14,11 +14,6 @@ const App = () => {
     setSelectedVideo(videos[0]);
   }, [videos]);
 
-  const onVideoSelect = (video) => {
-    // console.log("from the app", video);
-    setSelectedVideo(video);
-  };
-
   const showResults = () => {
     if (videos.length !== 0)
       return (
